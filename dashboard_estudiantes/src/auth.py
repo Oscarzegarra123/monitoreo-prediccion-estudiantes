@@ -271,7 +271,7 @@ def mostrar_login():
             left_spacer, image_col, right_spacer = st.columns([1, 1, 1])
             with image_col:
                 try:
-                    st.image("images/colegio.JPG", width=150, use_container_width=True)
+                  st.image("dashboard_estudiantes/src/images/colegio.JPG", width=150, use_container_width=True)
                 except:
                     st.image("https://via.placeholder.com/150x150/3498db/ffffff?text=LOGO", width=150, use_container_width=True)
             
